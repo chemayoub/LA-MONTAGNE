@@ -1,0 +1,17 @@
+nav{
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    color: $white-color;
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    li{
+        padding: 0 20px;
+    }
+}

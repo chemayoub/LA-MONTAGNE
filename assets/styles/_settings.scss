@@ -5,7 +5,10 @@
     list-style: none;
     box-sizing: border-box;
 }
-
+//variables de couleur
+$gray-color:#606060;
+$white-color:#FFFFFF;
+$black-color:#040404;
 // Définition des polices de caractères personnalisées 
 
 @font-face {
@@ -29,3 +32,5 @@ body{
     justify-content: center;
     align-items: center;
   }
+
+ 
