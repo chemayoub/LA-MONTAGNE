@@ -9,6 +9,8 @@
 $gray-color:#606060;
 $white-color:#FFFFFF;
 $black-color:#040404;
+$Cambridge-color:#647457;
+
 // Définition des polices de caractères personnalisées 
 
 @font-face {
@@ -21,10 +23,15 @@ $black-color:#040404;
 }
 /* Styles pour le corps de la page */
 body{
-    background: url(/assets/img/bg.jpg) center/cover ;
+    background: url(/assets/img/LA\ MONTAGNE.jpg) center/cover no-repeat;
     text-align: center;
     font-family:Merriweather;
 }
+h3{
+    text-transform: capitalize;
+    padding: 30px 0;
+}
+
 //Mixin pour centrer le contenu 
 
 @mixin center {

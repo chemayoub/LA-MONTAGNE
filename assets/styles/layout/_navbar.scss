@@ -5,8 +5,11 @@ nav{
     display: flex;
     align-items:center ;
     justify-content: space-between;
-    background: rgba(255, 255, 255, 0.2);
-    color: $white-color;
+    background: rgba(255, 255, 255, 0.5);
+    font-weight:bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color:$black-color;
     ul{
         display: flex;
         align-items: center;
